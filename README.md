@@ -14,3 +14,5 @@ There are:
 From the initial position of all casks in multiple stacks, the vehicle has to do the necessary movements to let the desired cask be free (without any other cask on its way), so that it can load it and transport it into the exit point.
 The solution should be optimal, which means that the sum of the costs in the sequence of actionst should be minimized.
 These costs come from the actions of loading and loading casks, as well as moving along the edges, both deppending on the weight of the cask being used.
+
+The problem is solved in two different ways, one using an uninformed graph search algorithm, and the other using an informed one, called A* (A star).
